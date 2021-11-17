@@ -1,0 +1,66 @@
+{
+  "id" : "https://pieckh.github.io/testWorkbench/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in pieckh/testWorkbench project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 3692,
+    "id" : "https://pieckh.github.io/testWorkbench/images/testbird/canvas/",
+    "label" : {
+      "none" : [ "testbird" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://pieckh.github.io/testWorkbench/images/testbird/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://pieckh.github.io/testWorkbench/images/testbird/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 116,
+              "height" : 77
+            }, {
+              "width" : 231,
+              "height" : 153
+            }, {
+              "width" : 462,
+              "height" : 305
+            }, {
+              "width" : 923,
+              "height" : 610
+            }, {
+              "width" : 1846,
+              "height" : 1220
+            }, {
+              "width" : 3692,
+              "height" : 2440
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3692,
+            "@id" : "https://pieckh.github.io/testWorkbench/images/testbird",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2440
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3692,
+          "id" : "https://pieckh.github.io/testWorkbench/images/testbird/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2440
+        },
+        "target" : "https://pieckh.github.io/testWorkbench/images/testbird/canvas/"
+      } ]
+    } ],
+    "height" : 2440
+  } ]
+}
