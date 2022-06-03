@@ -1,0 +1,30 @@
+{
+    "@context":"http://iiif.io/api/presentation/2/context.json",
+    "@id":"https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/devannotation/e56e2be0e30f11ec8f9aaf1d4f5243c5/annotations.json",
+    "@type":"sc:AnnotationList",
+    "resources":[
+        {
+    "@type":"oa:Annotation",
+    "@id": "48e8bc70e32511ecbcf3afdb0b9baf50",
+    "motivation":"sc:painting",
+    "resource":{
+       "@type":"cnt:ContentAsText",
+       "format":"text/plain",
+       "chars":"Der Band wurde im Juli 1995 im Rahmen der von der Bibliotheksgesellschaft Ulm ins Leben gerufenen Aktion \"Adopt a book\" restauriert. \n\nPatin dieser Maßnahme war Frau Dr. Rosemarie Wildermuth. "
+    },
+    "on":"https://pieckh.github.io/Fuchs.Kreuterbuch/images/S005/canvas/c0#xywh=-1667.9848628193006,-3.1530333899354446e-13,6175.969725638601,4080.000000000001"
+},{
+    "@type":"oa:Annotation",
+    "@id": "7059a120e32511ecbcf3afdb0b9baf50",
+    "motivation":"sc:painting",
+    "resource":{
+       "@type":"cnt:ContentAsText",
+       "format":"text/plain",
+       "chars":"Nachdem eine erste Faksimile-Ausgabe aus dem Jahr 2001 im Buchhandel vergriffen ist, veröffentlicht der Taschen-Verlag jetzt im Jahr 2022 erneut einen Nachdruck, diesmal im Originalformat und mit einem Begleitband von Klaus Dobat und Werner Dressendörfer. So haben Sie die Möglichkeit, während das Original in der Vitrine liegt, im Faksimile zu blättern und sich im Begleitband weiter zu informieren.
+\n\nDas Faksimile wird ab Juli 2022 im Freihandbereich der Stadtbibliothek in der Sachgruppe Medizin unter der Signatur Med 623 Fuch zu finden sein.
+"
+    },
+    "on":"https://pieckh.github.io/Fuchs.Kreuterbuch/images/S005/canvas/c0#xywh=-24.710460666446675,70.61065878919683,3574.056554189005,2361.1111111111118"
+}
+    ]
+ }
